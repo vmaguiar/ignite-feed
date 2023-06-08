@@ -1,0 +1,41 @@
+:root {
+  /* font */
+  --font-very-small: 0.75rem;
+  --font-small: 0.875rem;
+  --font-normal: 1rem;
+
+  font-family: 'Roboto', sans-serif;
+  line-height: 160%;
+
+
+  /* cores */
+  --bg-gray: #121214;
+  --gray-cards: #202024;
+  --gray-divider: #323238;
+  --gray-placeholder: #7c7c8a;
+  --gray-second-text: #8d8d99;
+  --gray-text: #c4c4cc;
+  --gray-text-titles: #e1e1e6;
+
+  --red-ignite: #f75a68;
+
+  --green: #00875f;
+  --green-light: #00b37e;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  line-height: 160%;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+* {
+  font-family: 'Roboto', sans-serif;
+  line-height: 160%;
+  color: var(--gray-text)
+}
