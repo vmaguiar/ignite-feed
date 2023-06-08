@@ -2,7 +2,6 @@
   /* font */
   --font-very-small: 0.75rem;
   --font-small: 0.875rem;
-  --font-normal: 1rem;
 
   font-family: 'Roboto', sans-serif;
   line-height: 160%;
@@ -32,10 +31,20 @@
   box-sizing: border-box;
 }
 
-html,
+
+body {
+  background: var(--bg-gray);
+  color: var(--gray-text);
+
+  -webkit-font-smoothing: antialiased;
+}
+
 body,
-* {
+input,
+textarea,
+button {
   font-family: 'Roboto', sans-serif;
   line-height: 160%;
-  color: var(--gray-text)
+  font-weight: 400;
+  font-size: 1rem;
 }

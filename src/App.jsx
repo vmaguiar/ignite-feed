@@ -4,4 +4,3 @@ export function App() {
     <h1>Ignite Feed</h1>
   )
 }
-
