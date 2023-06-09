@@ -48,3 +48,23 @@ button {
   font-weight: 400;
   font-size: 1rem;
 }
+
+button {
+  background: transparent;
+  color: var(--green-light);
+
+  font-weight: bold;
+
+  padding: 1rem 1.5rem 0.875rem 1.5rem;
+  border: 1px solid var(--green-light);
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background: var(--green-light);
+  color: white;
+}
