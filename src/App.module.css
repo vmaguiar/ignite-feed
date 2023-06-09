@@ -1,0 +1,31 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* align-content: center; */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+
+  max-width: 70rem;
+
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+
+/* Left menu CSS */
+
+
+/* Feed CSS */
+.feedContainer {
+  width: 52rem;
+
+  border: 1px solid blue;
+}
