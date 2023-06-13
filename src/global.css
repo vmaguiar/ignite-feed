@@ -1,6 +1,10 @@
 :root {
   /* font */
+
+  /* 12px */
   --font-very-small: 0.75rem;
+
+  /* 14px */
   --font-small: 0.875rem;
 
   font-family: 'Roboto', sans-serif;
