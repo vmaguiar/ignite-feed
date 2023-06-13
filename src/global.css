@@ -1,6 +1,10 @@
 :root {
   /* font */
+
+  /* 12px */
   --font-very-small: 0.75rem;
+
+  /* 14px */
   --font-small: 0.875rem;
 
   font-family: 'Roboto', sans-serif;
@@ -21,6 +25,12 @@
   --green: #00875f;
   --green-light: #00b37e;
 }
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green);
+}
+
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -47,6 +57,7 @@ button {
   line-height: 160%;
   font-weight: 400;
   font-size: 1rem;
+  color: var(--gray-text);
 }
 
 button {
@@ -54,6 +65,9 @@ button {
   color: var(--green-light);
 
   font-weight: bold;
+
+  display: flex;
+  align-items: center;
 
   padding: 1rem 1.5rem 0.875rem 1.5rem;
   border: 1px solid var(--green-light);
