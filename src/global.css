@@ -55,6 +55,9 @@ button {
 
   font-weight: bold;
 
+  display: flex;
+  align-items: center;
+
   padding: 1rem 1.5rem 0.875rem 1.5rem;
   border: 1px solid var(--green-light);
   border-radius: 0.5rem;

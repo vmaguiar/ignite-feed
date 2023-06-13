@@ -9,7 +9,7 @@
 
   overflow: hidden;
 
-  border-radius: 0.5rem;
+  border-radius: 8px;
 }
 
 .coverImg {
@@ -47,12 +47,16 @@
 
   margin-bottom: 1rem;
 
-  border-radius: 0.5rem;
-  border: 1px solid;
-  outline: 1px solid green;
+  border-radius: 8px;
+  border: 4px solid var(--gray-cards);
+  outline: 2px solid var(--green);
 }
 
 
 .footer {
   padding: 1.5rem 2rem 2rem 2rem;
+}
+
+.footer button {
+  gap: 0.5rem;
 }
