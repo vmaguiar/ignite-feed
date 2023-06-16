@@ -8,7 +8,7 @@ In this social media we have profile section on the side and the feed section on
 So in the feed section we can create a text post and also be able to comment on others and on our own, 
 in addition we can like other comments.
 
-## This branch is my resolution for the FullStack with T3 stack choice
+<!-- ## This branch is my resolution for the FullStack with T3 stack choice
  
 <p align='center'>
   <img width='600' src='src/assets/to_readme/t3-app-readme-gif.gif'
@@ -65,13 +65,13 @@ in addition we can like other comments.
 - [-] Add a search/filter feature to search for specific tasks.
 - [✔️] Implement a user-friendly UI with appropriate styling.
 - [✔️] Design a RESTful API for CRUD operations on the back-end.
-- [✔️] Handle data synchronization between the client and server.
+- [✔️] Handle data synchronization between the client and server. -->
 
 ### Additional features:
 
-* [-] Card feature with title and todo's (like google keep list).
-* [-] display all the cards created.
 * [✔️] Detailed README.md
+* [-] ...
+* [-] ...
 
 
 #### to get things worked:
@@ -79,38 +79,23 @@ in addition we can like other comments.
 ### Clone this repository:
 
 ```bash 
-git clone https://github.com/vmaguiar/qavi-todo-list-app.git
+git clone https://github.com/vmaguiar/ignite-feed.git
 ```
-or if you want only the front-end resolution <br>
-clone the single branch:
 
-```bash 
-git clone -b front-end-only-branch --single-branch https://github.com/vmaguiar/qavi-todo-list-app.git
-```
 then open the folder:
 ```bash 
 cd qavi-todo-list-app
 ```
 
-if you clone the repository go to the branch you want to: <br>
-- the main branch:
-```bash 
-git checkout main
-```
-- the t3 branch:
-```bash 
-git checkout t3-branch
-```
-- the react + next.js branch:
-```bash 
-git checkout front-end-only-branch
-```
-<br>
-
 ### download all dependences used by the app:
 
 ```bash 
 npm ci
+```
+or
+
+```bash
+npm install
 ```
 
 ### Run the development project:
