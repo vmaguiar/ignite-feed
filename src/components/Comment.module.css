@@ -6,14 +6,6 @@
 .comment+.comment {
   margin-top: 1.5rem;
 }
-
-
-.comment img {
-  height: 3.5rem;
-
-  border-radius: 8px;
-}
-
 /* Fim do .comment */
 
 
@@ -37,7 +29,9 @@
   display: flex;
   align-items: center;
 
+  border-radius: 2px;
   border: 0;
+  padding: 0;
 }
 
 .commentBox footer button:hover {
@@ -52,7 +46,6 @@
   content: "\2022";
   padding: 0 0.25rem;
 }
-
 /* Fim do .commentBox */
 
 
@@ -92,7 +85,6 @@
 .commentContent p {
   margin-top: 1rem;
 }
-
 /* Fim do .commentContent */
 
 
@@ -113,5 +105,4 @@
   font-size: var(--font-very-small);
   color: var(--gray-second-text);
 }
-
 /* Fim do .authorAndTime */
