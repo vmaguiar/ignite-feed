@@ -5,7 +5,7 @@ import { Avatar } from './Avatar'
 import styles from './Comment.module.css'
 
 
-export function Comment() {
+export function Comment({ contentText }) {
   return (
     <div className={styles.comment}>
       <Avatar noBorder src="https://github.com/maykbrito.png" />
@@ -26,7 +26,7 @@ export function Comment() {
             </button>
           </header>
 
-          <p>Conteudo do comentário</p>
+          <p>{contentText}</p>
         </div>
 
         <footer>
