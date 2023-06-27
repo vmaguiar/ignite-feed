@@ -19,7 +19,7 @@ const posts = [
       { type: 'paragraph', contentText: ' Esse aqui é o post. É um projeto que fiz no NLW Return, pipipi popopo. DoctorCare 🚀' },
       { type: 'link', contentText: 'jane.design/doctorcare' },
     ],
-    publishedAt: new Date('2023-06-27 12:00:00')
+    publishedAt: new Date('2023-06-27 13:13:00')
   },
 
   {
@@ -34,7 +34,7 @@ const posts = [
       { type: 'paragraph', contentText: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
       { type: 'link', contentText: 'jane.design/doctorcare' },
     ],
-    publishedAt: new Date('2023-06-26 13:30:00')
+    publishedAt: new Date('2023-06-27 12:30:00')
   },
 
   {
@@ -49,7 +49,7 @@ const posts = [
       { type: 'paragraph', contentText: 'pipipi popopo pipípi popopo. pipipipipip popopopopopo asei la oq mais um texto aleatorio e é isso vao bruxao 🚀' },
       { type: 'link', contentText: 'jane.design/doctorcare' },
     ],
-    publishedAt: new Date('2023-06-26 13:30:00')
+    publishedAt: new Date('2023-06-26 10:30:00')
   },
 ]
 
