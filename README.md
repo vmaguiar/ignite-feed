@@ -65,14 +65,13 @@ in addition we can like other comments.
 - [-] Add a search/filter feature to search for specific tasks.
 - [✔️] Implement a user-friendly UI with appropriate styling.
 - [✔️] Design a RESTful API for CRUD operations on the back-end.
-- [✔️] Handle data synchronization between the client and server. -->
+- [✔️] Handle data synchronization between the client and server.
 
 ### Additional features:
 
 * [✔️] Detailed README.md
 * [-] ...
-* [-] ...
-
+* [-] ... -->
 
 #### to get things worked:
 
@@ -84,7 +83,7 @@ git clone https://github.com/vmaguiar/ignite-feed.git
 
 then open the folder:
 ```bash 
-cd qavi-todo-list-app
+cd ignite-feed
 ```
 
 ### download all dependences used by the app:
