@@ -108,7 +108,10 @@
 }
 
 
-.postFooter button {
+.postFooter button[type=submit] {
+  background: var(--green);
+  color: #fff;
+
   visibility: hidden;
   max-height: 0;
 
@@ -124,7 +127,6 @@
   margin-top: 1rem;
   padding: 1rem 1.5rem 0.875rem 1.5rem;
 }
-
 
 
 .commentList {
