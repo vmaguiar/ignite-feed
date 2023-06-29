@@ -49,3 +49,8 @@
 .footer button {
   gap: 0.5rem;
 }
+
+.footer button:hover {
+    background: var(--green);
+    color: white;
+}
